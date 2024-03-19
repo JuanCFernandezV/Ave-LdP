@@ -4,7 +4,7 @@ public class Ave {
     //ATRIBUTOS
     //En la primera parte, se encapsulan los atributos de la clase "Ave" a traves del modificador "private"
     private String nombre;
-    private String tamaño;
+    private String tamano;
     private String color;
     private int edad;
     private boolean capacidadVolar;
@@ -13,9 +13,9 @@ public class Ave {
 
     //Gracias al polimorfismo se pueden crear 2 constructores, los cuales van a determinar con que atributos especificos de la clase "Ave" se van a crear los objetos
     //Constructor 1:
-    public Ave(String nombre, String tamaño, int edad, String color){
+    public Ave(String nombre, String tamano, int edad, String color){
         this.nombre = nombre;
-        this.tamaño = tamaño;
+        this.tamano = tamano;
         this.edad = edad;
         this.color = color;
     }
@@ -38,13 +38,13 @@ public class Ave {
         return nombre;
     }
 
-    //Tamaño:
-    public void setTamaño(String tamaño) {
-        this.tamaño = tamaño;
+    //Tamano:
+    public void setTamano(String tamano) {
+        this.tamano = tamano;
     }
 
-    public String getTamaño() {
-        return tamaño;
+    public String getTamano() {
+        return tamano;
     }
 
     //Edad:
